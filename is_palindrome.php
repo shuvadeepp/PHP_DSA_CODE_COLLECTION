@@ -1,6 +1,6 @@
 <?php 
 
-    function is_palindrome($input) {
+    function isPalindrome($input) {
 
         // echo $input;exit;
         $length = strlen($input);
@@ -18,4 +18,4 @@
             echo $reverse . " Is not palindrome Number";
         }
     }
-    echo is_palindrome("545");
+    echo isPalindrome("545");
